@@ -9,4 +9,4 @@ def reverse_each_word(string)
   binding.pry 
 end 
 
-reverse_each_word
+reverse_each_word("Coconut water is yummy.")
