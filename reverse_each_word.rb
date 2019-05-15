@@ -1,11 +1,12 @@
 require 'pry'
 
 def reverse_each_word(string)
-  words = string.split 
-  words.collect do |word|
-    word.reverse 
+  words = string.split
+  final = []
+  words.each do |word|
+    final.push(word.reverse)
   end 
-  words 
+  final 
   binding.pry 
 end 
 
