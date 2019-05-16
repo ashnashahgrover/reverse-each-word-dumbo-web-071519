@@ -1,5 +1,3 @@
-require 'pry'
-
 def reverse_each_word(string)
   words = string.split
   final = []
@@ -7,7 +5,5 @@ def reverse_each_word(string)
     final.push(word.reverse)
   end 
   final.join(" ")
-  binding.pry 
 end 
 
-reverse_each_word("Coconut water is yummy.")
