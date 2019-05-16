@@ -6,7 +6,7 @@ def reverse_each_word(string)
   words.each do |word|
     final.push(word.reverse)
   end 
-  final 
+  final.join(" ")
   binding.pry 
 end 
 
